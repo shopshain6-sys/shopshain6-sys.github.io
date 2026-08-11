@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shopshain6-sys.github.io/sitemap.xml
