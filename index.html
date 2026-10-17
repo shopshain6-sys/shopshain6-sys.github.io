@@ -2,51 +2,2268 @@
 <html lang="he" dir="rtl">
   <head>
     <meta charset="UTF-8" />
-    <!-- viewport-fit=cover נדרש כדי ש-env(safe-area-inset-*) יחזיר ערכים אמיתיים
-         באייפון עם מגרעת. user-scalable=no מונע זום מקרי בהקשה כפולה על מספרים. -->
+    <!-- viewport-fit=cover נדרש כדי ש-env(safe-area-inset-*) יחזיר ערכים אמיתיים באייפון. -->
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no"
     />
 
-    <title>ALGOSTRAT · בחירת מניות מנצחות ובניית תיק השקעות</title>
+    <title>מתן &amp; ספיר</title>
     <meta
       name="description"
-      content="מנוע ניתוח מניות בעברית: 167 חברות מארה״ב ומישראל, ניתוח פונדמנטלי וטכני מעמיק, ובניית תיק השקעות מותאם אישית. נתוני שוק אמיתיים."
+      content="הזמנה לחתונה של מתן וספיר — כל הפרטים: תאריך, מיקום, הגעה ואישור הגעה."
     />
-    <meta name="theme-color" content="#060607" />
+    <meta name="theme-color" content="#3b0a14" />
+    <!-- הזמנה פרטית — לא רוצים אותה בתוצאות החיפוש של גוגל -->
+    <meta name="robots" content="noindex, nofollow" />
 
-    <!-- תצוגה מקדימה בוואטסאפ, פייסבוק וטלגרם. בלי אלה הקישור נשלח כטקסט יבש. -->
+    <!-- תצוגה מקדימה בוואטסאפ ובאינסטגרם -->
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="he_IL" />
-    <meta property="og:site_name" content="ALGOSTRAT" />
-    <meta property="og:title" content="ALGOSTRAT · בחירת מניות מנצחות" />
+    <meta property="og:title" content="מתן & ספיר · שמרו את התאריך" />
     <meta
       property="og:description"
-      content="עונים על כמה שאלות ומקבלים מניות מדורגות או תיק השקעות שלם — עם ההסבר המלא מאחורי כל בחירה."
+      content="21.2.2027 · סיטרוס, אבן יהודה. לחצו לפתיחת ההזמנה ולכל הפרטים."
     />
-    <meta property="og:url" content="https://shopshain6-sys.github.io/" />
-    <meta property="og:image" content="https://shopshain6-sys.github.io/og.png" />
+    <meta property="og:url" content="https://shopshain6-sys.github.io/wedding/" />
+    <meta property="og:image" content="https://shopshain6-sys.github.io/wedding/og.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="ALGOSTRAT · בחירת מניות מנצחות" />
-    <meta
-      name="twitter:description"
-      content="ניתוח מעמיק ל-167 חברות מארה״ב ומישראל, ובניית תיק השקעות מותאם אישית."
-    />
-    <meta name="twitter:image" content="https://shopshain6-sys.github.io/og.png" />
+    <meta name="twitter:title" content="מתן & ספיר · שמרו את התאריך" />
+    <meta name="twitter:image" content="https://shopshain6-sys.github.io/wedding/og.png" />
+    <link rel="canonical" href="https://shopshain6-sys.github.io/wedding/" />
 
-    <link rel="canonical" href="https://shopshain6-sys.github.io/" />
     <link
       rel="icon"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23060607'/%3E%3Cpath d='M5 24 L12 18 L18 21 L27 8' fill='none' stroke='%23f4f4f6' stroke-width='2.5'/%3E%3Ccircle cx='27' cy='8' r='2.5' fill='%234ade80'/%3E%3C/svg%3E"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%233b0a14'/%3E%3Cpath d='M16 25s-9-5.4-9-11.4A4.9 4.9 0 0 1 16 10a4.9 4.9 0 0 1 9 3.6C25 19.6 16 25 16 25z' fill='%23e8b4a8'/%3E%3C/svg%3E"
     />
-    <script type="module" crossorigin src="/assets/index-DNfWWufo.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Bezy22Rr.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Frank+Ruhl+Libre:wght@300;400;500;700&family=Heebo:wght@200;300;400;500&family=Pinyon+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* ============================================================
+         לוח צבעים אחד לכל האתר. שינוי כאן משנה את כל הגוונים.
+         ============================================================ */
+      :root {
+        /* המעטפה */
+        --env: #3b0a14;
+        --env-deep: #250611;
+        --rose-gold: #e3b7a4;
+
+        /* ההזמנה */
+        --rose-bg: #f3dcd8;
+        --rose-pale: #fdf2ee;
+        --cream: #fdf6f0;
+        --wine: #6d1f2e;
+        --wine-soft: #8a3c49;
+        --gold: #b9935c;
+        --sage: #9fae96;
+        --ink: #5a3b40;
+        --ink-soft: #8a6b70;
+        --petal-dark: #7d1326;
+
+        --script: "Pinyon Script";
+        --serif-he: "Frank Ruhl Libre", Georgia, serif;
+        --serif-en: "Cormorant Garamond", Georgia, serif;
+        --sans-he: "Heebo", system-ui, sans-serif;
+
+        /* רוחב "דף" קבוע — ההזמנה נראית כמו כרטיס גם במסך רחב */
+        --page: 460px;
+      }
+
+      * {
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: var(--env-deep);
+        font-family: var(--sans-he);
+        color: var(--ink);
+        overscroll-behavior-y: none;
+      }
+
+      body.locked {
+        /* בזמן שהמעטפה סגורה אין גלילה */
+        height: 100dvh;
+        overflow: hidden;
+      }
+
+      /* ============================================================
+         שלב 1 — המעטפה
+         ============================================================ */
+      .stage {
+        position: fixed;
+        inset: 0;
+        z-index: 50;
+        display: grid;
+        place-items: center;
+        perspective: 1400px;
+        transition: opacity 0.6s ease, visibility 0.6s;
+      }
+
+      .backdrop {
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(120% 90% at 50% 45%, #5c1020 0%, var(--env-deep) 62%, #15040a 100%);
+        transition: opacity 0.6s ease 0.08s;
+      }
+
+      .stage.flooding .backdrop {
+        opacity: 0;
+        transition: opacity 0.75s ease 0.25s;
+      }
+
+      .stage.flooding .env-back,
+      .stage.flooding .seams,
+      .stage.flooding .glow-rays {
+        opacity: 0;
+        transition: opacity 0.6s ease 0.2s;
+      }
+
+      .stage.flooding .flap {
+        opacity: 0;
+        transition: opacity 0.75s ease 0.1s;
+      }
+
+      .stage.gone {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .envelope {
+        position: relative;
+        height: min(78dvh, 620px);
+        aspect-ratio: 5 / 7;
+        width: auto;
+        max-width: 90vw;
+        transform-style: preserve-3d;
+        transition: transform 1.1s cubic-bezier(0.3, 0, 0.2, 1);
+      }
+
+      /* ההטבעה הפרחונית: שתי שכבות של אותו דגם — אחת כהה ואחת בהירה,
+         בהיסט של פיקסל. ההפרש ביניהן הוא מה שיוצר תחושת תבליט. */
+      .texture {
+        position: absolute;
+        inset: 0;
+        background-color: var(--env);
+        background-image:
+          url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='0 0 180 180'%3E%3Cg fill='none' stroke='%23ffcdbd' stroke-opacity='.34' stroke-width='1.35' stroke-linecap='round'%3E%3Cpath d='M0 0a3 3 0 0 1 6 0a6 6 0 0 1-12 0a9 9 0 0 1 18 0a12 12 0 0 1-24 0a15 15 0 0 1 30 0' transform='translate(34,38) rotate(0) scale(1)'/%3E%3Cpath d='M0 0a3 3 0 0 1 6 0a6 6 0 0 1-12 0a9 9 0 0 1 18 0a12 12 0 0 1-24 0a15 15 0 0 1 30 0' transform='translate(122,70) rotate(25) scale(0.72)'/%3E%3Cpath d='M0 0a3 3 0 0 1 6 0a6 6 0 0 1-12 0a9 9 0 0 1 18 0a12 12 0 0 1-24 0a15 15 0 0 1 30 0' transform='translate(70,124) rotate(-15) scale(0.88)'/%3E%3Cpath d='M0 0a3 3 0 0 1 6 0a6 6 0 0 1-12 0a9 9 0 0 1 18 0a12 12 0 0 1-24 0a15 15 0 0 1 30 0' transform='translate(150,148) rotate(10) scale(0.6)'/%3E%3Cpath d='M0 0a3 3 0 0 1 6 0a6 6 0 0 1-12 0a9 9 0 0 1 18 0a12 12 0 0 1-24 0a15 15 0 0 1 30 0' transform='translate(8,120) rotate(40) scale(0.5)'/%3E%3Cpath d='M0 0c7-9 16-10 22-5-6 9-16 10-22 5z' transform='translate(84,22) rotate(-30) scale(0.8)'/%3E%3Cpath d='M0 0c7-9 16-10 22-5-6 9-16 10-22 5z' transform='translate(150,36) rotate(20) scale(0.65)'/%3E%3Cpath d='M0 0c7-9 16-10 22-5-6 9-16 10-22 5z' transform='translate(18,76) rotate(110) scale(0.7)'/%3E%3Cpath d='M0 0c7-9 16-10 22-5-6 9-16 10-22 5z' transform='translate(104,96) rotate(200) scale(0.6)'/%3E%3Cpath d='M0 0c7-9 16-10 22-5-6 9-16 10-22 5z' transform='translate(44,160) rotate(-60) scale(0.7)'/%3E%3Cpath d='M0 0c7-9 16-10 22-5-6 9-16 10-22 5z' transform='translate(132,122) rotate(150) scale(0.55)'/%3E%3Cpath d='M92 46c10 6 15 16 14 28'/%3E%3Cpath d='M20 100c12 2 20 10 24 21'/%3E%3Cpath d='M138 92c-9 8-12 18-10 29'/%3E%3C/g%3E%3C/svg%3E"),
+          url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='0 0 180 180'%3E%3Cg fill='none' stroke='%23000000' stroke-opacity='.5' stroke-width='1.35' stroke-linecap='round'%3E%3Cpath d='M0 0a3 3 0 0 1 6 0a6 6 0 0 1-12 0a9 9 0 0 1 18 0a12 12 0 0 1-24 0a15 15 0 0 1 30 0' transform='translate(34,38) rotate(0) scale(1)'/%3E%3Cpath d='M0 0a3 3 0 0 1 6 0a6 6 0 0 1-12 0a9 9 0 0 1 18 0a12 12 0 0 1-24 0a15 15 0 0 1 30 0' transform='translate(122,70) rotate(25) scale(0.72)'/%3E%3Cpath d='M0 0a3 3 0 0 1 6 0a6 6 0 0 1-12 0a9 9 0 0 1 18 0a12 12 0 0 1-24 0a15 15 0 0 1 30 0' transform='translate(70,124) rotate(-15) scale(0.88)'/%3E%3Cpath d='M0 0a3 3 0 0 1 6 0a6 6 0 0 1-12 0a9 9 0 0 1 18 0a12 12 0 0 1-24 0a15 15 0 0 1 30 0' transform='translate(150,148) rotate(10) scale(0.6)'/%3E%3Cpath d='M0 0a3 3 0 0 1 6 0a6 6 0 0 1-12 0a9 9 0 0 1 18 0a12 12 0 0 1-24 0a15 15 0 0 1 30 0' transform='translate(8,120) rotate(40) scale(0.5)'/%3E%3Cpath d='M0 0c7-9 16-10 22-5-6 9-16 10-22 5z' transform='translate(84,22) rotate(-30) scale(0.8)'/%3E%3Cpath d='M0 0c7-9 16-10 22-5-6 9-16 10-22 5z' transform='translate(150,36) rotate(20) scale(0.65)'/%3E%3Cpath d='M0 0c7-9 16-10 22-5-6 9-16 10-22 5z' transform='translate(18,76) rotate(110) scale(0.7)'/%3E%3Cpath d='M0 0c7-9 16-10 22-5-6 9-16 10-22 5z' transform='translate(104,96) rotate(200) scale(0.6)'/%3E%3Cpath d='M0 0c7-9 16-10 22-5-6 9-16 10-22 5z' transform='translate(44,160) rotate(-60) scale(0.7)'/%3E%3Cpath d='M0 0c7-9 16-10 22-5-6 9-16 10-22 5z' transform='translate(132,122) rotate(150) scale(0.55)'/%3E%3Cpath d='M92 46c10 6 15 16 14 28'/%3E%3Cpath d='M20 100c12 2 20 10 24 21'/%3E%3Cpath d='M138 92c-9 8-12 18-10 29'/%3E%3C/g%3E%3C/svg%3E"),
+          radial-gradient(70% 55% at 50% 42%, rgba(255, 190, 170, 0.14), transparent 70%);
+        background-position: 0.5px 0.5px, -0.5px -0.5px, center;
+        background-size: 132px 132px, 132px 132px, cover;
+      }
+
+      /* גוף המעטפה — מה שנראה מאחורי הדשים כשהם נפתחים */
+      .env-back {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, #2a0710, #4a0d1a);
+        box-shadow: 0 40px 90px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(227, 183, 164, 0.18);
+      }
+
+      .flap {
+        position: absolute;
+        inset: 0;
+        transform-style: preserve-3d;
+        transition: transform 1.25s cubic-bezier(0.55, 0, 0.3, 1);
+        filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.45));
+      }
+
+      .flap .texture {
+        /* קו זהוב דק לאורך השוליים של כל דש */
+        box-shadow: inset 0 0 0 1px rgba(227, 183, 164, 0.42);
+      }
+
+      .flap-top {
+        clip-path: polygon(0 0, 100% 0, 50% 50%);
+        transform-origin: 50% 0;
+        z-index: 4;
+      }
+      .flap-bottom {
+        clip-path: polygon(0 100%, 100% 100%, 50% 50%);
+        transform-origin: 50% 100%;
+        z-index: 3;
+        transition-delay: 0.24s;
+      }
+      .flap-left {
+        clip-path: polygon(0 0, 0 100%, 50% 50%);
+        transform-origin: 0 50%;
+        z-index: 2;
+        transition-delay: 0.12s;
+      }
+      .flap-right {
+        clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+        transform-origin: 100% 50%;
+        z-index: 2;
+        transition-delay: 0.12s;
+      }
+
+      .stage.opening .flap-top {
+        transform: rotateX(16deg);
+      }
+      .stage.opening .flap-bottom {
+        transform: rotateX(-26deg);
+      }
+      .stage.opening .flap-left {
+        transform: rotateY(-14deg);
+      }
+      .stage.opening .flap-right {
+        transform: rotateY(14deg);
+      }
+
+      /* קווי התפר של הדשים — בלעדיהם המעטפה נראית כמו מלבן שטוח */
+      .seams {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: min(78dvh, 620px);
+        aspect-ratio: 5 / 7;
+        width: auto;
+        max-width: 90vw;
+        z-index: 4;
+        pointer-events: none;
+        fill: none;
+        stroke: var(--rose-gold);
+        stroke-width: 0.45;
+        opacity: 0.65;
+        transition: opacity 0.45s ease;
+      }
+
+      .stage.opening .seams {
+        opacity: 1;
+        stroke: #ffdcae;
+        filter: drop-shadow(0 0 4px rgba(255, 190, 120, 0.9));
+      }
+
+      /* ===== האור שנדלק מתחת לחותם =====
+         שלוש שכבות: ליבה לוהטת, קרניים, ושטיפת זהב שמאירה את
+         ההטבעה הפרחונית. כולן ממורכזות באותה נקודה, מעט מתחת לחותם. */
+      .glow-core,
+      .glow-rays,
+      .gold-wash {
+        position: absolute;
+        pointer-events: none;
+        opacity: 0;
+      }
+
+      .glow-core {
+        left: 50%;
+        top: 51%;
+        width: min(34vw, 155px);
+        aspect-ratio: 1;
+        z-index: 7;
+        transform: translate(-50%, -50%) scale(0.04);
+        background: radial-gradient(
+          circle,
+          #ffffff 0%,
+          #fff3dc 16%,
+          rgba(255, 198, 122, 0.9) 36%,
+          rgba(255, 150, 60, 0.35) 56%,
+          rgba(255, 130, 40, 0) 72%
+        );
+        filter: blur(1px);
+        transition:
+          opacity 0.35s ease 0.1s,
+          transform 1.35s cubic-bezier(0.25, 0.8, 0.3, 1) 0.1s;
+      }
+
+      .glow-rays {
+        left: 50%;
+        top: 51%;
+        width: 150vmax;
+        aspect-ratio: 1;
+        z-index: 6;
+        mix-blend-mode: screen;
+        transform: translate(-50%, -50%) scale(0.12) rotate(0deg);
+        background: repeating-conic-gradient(
+          from 0deg,
+          rgba(255, 226, 184, 0.5) 0deg 1.1deg,
+          rgba(255, 226, 184, 0) 1.1deg 10.5deg
+        );
+        /* בלי המסכה הקרניים נראות כמו גלגל, לא כמו אור */
+        -webkit-mask-image: radial-gradient(circle, #000 0%, rgba(0, 0, 0, 0.5) 13%, transparent 42%);
+        mask-image: radial-gradient(circle, #000 0%, rgba(0, 0, 0, 0.5) 13%, transparent 42%);
+        transition:
+          opacity 0.55s ease 0.2s,
+          transform 1.7s cubic-bezier(0.2, 0.7, 0.3, 1) 0.2s;
+      }
+
+      .gold-wash {
+        inset: 0;
+        z-index: 5;
+        transform-origin: 50% 51%;
+        transform: scale(0.35);
+        background: radial-gradient(
+          circle at 50% 51%,
+          rgba(255, 214, 156, 0.85) 0%,
+          rgba(255, 166, 86, 0.5) 13%,
+          rgba(205, 102, 38, 0.24) 26%,
+          rgba(140, 54, 16, 0.07) 40%,
+          transparent 54%
+        );
+        /* screen מבהיר את מה שמתחת במקום לכסות אותו, ולכן הוורדים
+           המוטבעים נדלקים בזהב במקום להימחק */
+        mix-blend-mode: screen;
+        transition:
+          opacity 0.55s ease 0.12s,
+          transform 1.5s cubic-bezier(0.2, 0.7, 0.3, 1) 0.12s;
+      }
+
+      .stage.opening .glow-core {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+      }
+
+      .stage.opening .glow-rays {
+        opacity: 0.6;
+        transform: translate(-50%, -50%) scale(1) rotate(10deg);
+      }
+
+      .stage.opening .gold-wash {
+        opacity: 1;
+        transform: scale(1.35);
+      }
+
+      /* ההצפה אל ההזמנה */
+      .burst {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        pointer-events: none;
+        opacity: 0;
+        transform: scale(0.2);
+        background: radial-gradient(
+          circle at 50% 53%,
+          #fffdf8 0%,
+          rgba(255, 240, 214, 0.97) 16%,
+          rgba(255, 214, 170, 0.8) 34%,
+          rgba(250, 226, 218, 0.5) 52%,
+          rgba(246, 231, 228, 0) 76%
+        );
+        transition:
+          opacity 0.6s ease,
+          transform 1.1s cubic-bezier(0.3, 0.7, 0.3, 1);
+      }
+
+      /* ההצפה מתחילה רק כשהאור כבר בשיאו */
+      .stage.flooding .burst {
+        opacity: 1;
+        transform: scale(2.6);
+      }
+
+      /* חותם השעווה */
+      .seal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 8;
+        width: 108px;
+        height: 108px;
+        margin: -54px 0 0 -54px;
+        padding: 0;
+        border: 0;
+        cursor: pointer;
+        background: transparent;
+        transition: transform 0.7s ease, opacity 0.45s ease, filter 0.6s ease;
+        animation: sealPulse 2.8s ease-in-out infinite;
+      }
+
+      .seal-face {
+        position: absolute;
+        inset: 0;
+        border-radius: 48% 52% 50% 50% / 50% 48% 52% 50%;
+        background:
+          radial-gradient(60% 55% at 38% 32%, #ffe6dc 0%, #f3c7b7 42%, #d79c87 78%, #b87a66 100%);
+        box-shadow:
+          inset 0 2px 5px rgba(255, 255, 255, 0.7),
+          inset 0 -4px 10px rgba(130, 70, 55, 0.5),
+          0 6px 18px rgba(0, 0, 0, 0.45);
+        display: grid;
+        place-items: center;
+      }
+
+      .seal-face::before {
+        /* השוליים המשוננים של השעווה */
+        content: "";
+        position: absolute;
+        inset: 6px;
+        border-radius: inherit;
+        border: 1px dashed rgba(140, 80, 65, 0.45);
+      }
+
+      .seal-letters {
+        font-family: var(--serif-en);
+        font-size: 30px;
+        letter-spacing: 0.02em;
+        color: #8a4a3c;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.55);
+      }
+
+      @keyframes sealPulse {
+        0%,
+        100% {
+          filter: drop-shadow(0 0 6px rgba(255, 190, 150, 0.35));
+        }
+        50% {
+          filter: drop-shadow(0 0 26px rgba(255, 200, 160, 0.85));
+        }
+      }
+
+      .stage.opening .seal {
+        animation: none;
+        transform: scale(1.04);
+        filter: drop-shadow(0 0 34px rgba(255, 206, 150, 0.95));
+      }
+
+      .stage.flooding .seal {
+        transform: scale(1.7);
+        opacity: 0;
+      }
+
+      .hint {
+        position: absolute;
+        bottom: calc(44px + env(safe-area-inset-bottom));
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 0;
+        font-family: var(--sans-he);
+        font-weight: 200;
+        font-size: 14px;
+        letter-spacing: 0.22em;
+        color: rgba(246, 231, 228, 0.72);
+        animation: hintFade 2.8s ease-in-out infinite;
+      }
+
+      .stage.opening .hint {
+        opacity: 0;
+        transition: opacity 0.4s;
+      }
+
+      @keyframes hintFade {
+        0%,
+        100% {
+          opacity: 0.35;
+        }
+        50% {
+          opacity: 0.95;
+        }
+      }
+
+      /* ============================================================
+         שלב 2 — ההזמנה
+         עיצוב: קשת מאוירת, רקע ורוד-עתיק, כתב יד לטיני לצד עברית
+         ============================================================ */
+      .invite {
+        opacity: 0;
+        transition: opacity 1.1s ease 0.25s;
+        background:
+          radial-gradient(120% 60% at 50% 0%, #fdf2ee 0%, rgba(253, 242, 238, 0) 55%),
+          linear-gradient(180deg, #f7e5e1 0%, var(--rose-bg) 42%, #ecd2cd 100%);
+        min-height: 100dvh;
+      }
+
+      .invite.visible {
+        opacity: 1;
+      }
+
+      .sheet {
+        max-width: var(--page);
+        margin: 0 auto;
+        padding: 0 22px calc(44px + env(safe-area-inset-bottom));
+      }
+
+      /* עלי כותרת שנושרים ברקע */
+      .petal-rain {
+        position: fixed;
+        inset: 0;
+        z-index: 1;
+        overflow: hidden;
+        pointer-events: none;
+      }
+
+      .fall {
+        position: absolute;
+        top: -8vh;
+        width: 12px;
+        height: 10px;
+        border-radius: 60% 40% 55% 45% / 65% 60% 40% 35%;
+        background: radial-gradient(70% 70% at 35% 30%, #c9566a, var(--petal-dark));
+        opacity: 0.6;
+        animation-name: fall;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes fall {
+        0% {
+          transform: translate3d(0, -10vh, 0) rotate(0deg);
+        }
+        100% {
+          transform: translate3d(var(--drift, 40px), 112vh, 0) rotate(540deg);
+        }
+      }
+
+      .content {
+        position: relative;
+        z-index: 2;
+      }
+
+      /* ---------- הקשת ---------- */
+      .arch {
+        position: relative;
+        margin: 0 -22px;
+        min-height: 88dvh;
+        display: grid;
+        place-items: center;
+        padding: calc(26px + env(safe-area-inset-top)) 26px 26px;
+        overflow: hidden;
+      }
+
+      /* תמונת הרקע של הקשת. כשיש קובץ איור הוא נכנס כאן ומכסה
+         את הציור הווקטורי שמתחתיו. */
+      .arch-photo {
+        position: absolute;
+        inset: 0;
+        background-size: cover;
+        background-position: center;
+        opacity: 0;
+        transition: opacity 0.6s ease;
+      }
+
+      .arch-photo.on {
+        opacity: 1;
+      }
+
+      .arch-art {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      /* בלי המעבר הזה האיור נגמר בקו חד מול רקע הדף */
+      .arch::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 16%;
+        background: linear-gradient(180deg, rgba(243, 220, 216, 0), var(--rose-bg));
+        pointer-events: none;
+        z-index: 1;
+      }
+
+      .arch-inner {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        padding: 0 8%;
+      }
+
+      .script {
+        font-family: var(--script), var(--serif-en), cursive;
+        font-weight: 400;
+        color: var(--wine-soft);
+      }
+
+      .arch-eyebrow {
+        font-family: var(--script), cursive;
+        font-size: clamp(26px, 7.4vw, 34px);
+        line-height: 1;
+        color: var(--wine-soft);
+        margin: 0;
+      }
+
+      .arch-date {
+        font-family: var(--serif-en), serif;
+        font-variant-numeric: lining-nums;
+        font-size: clamp(16px, 4.4vw, 19px);
+        letter-spacing: 0.14em;
+        color: var(--ink);
+        margin: 10px 0 0;
+      }
+
+      .arch-names {
+        font-family: var(--serif-he);
+        font-weight: 300;
+        font-size: clamp(42px, 13vw, 62px);
+        line-height: 1.12;
+        color: var(--wine);
+        margin: 22px 0 0;
+        text-wrap: balance;
+      }
+
+      .arch-amp {
+        display: block;
+        font-family: var(--serif-en), serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 0.62em;
+        line-height: 1.35;
+        color: var(--gold);
+      }
+
+      .arch-scroll {
+        margin: 30px 0 0;
+        font-family: var(--script), cursive;
+        font-size: 21px;
+        color: var(--wine-soft);
+      }
+
+      .arch-chevron {
+        display: block;
+        width: 22px;
+        height: 22px;
+        margin: 2px auto 0;
+        color: var(--gold);
+        animation: nudge 2.4s ease-in-out infinite;
+      }
+
+      @keyframes nudge {
+        0%,
+        100% {
+          transform: translateY(0);
+          opacity: 0.6;
+        }
+        50% {
+          transform: translateY(5px);
+          opacity: 1;
+        }
+      }
+
+      /* ---------- כותרות קטע ---------- */
+      .block {
+        margin: 0 0 46px;
+      }
+
+      .block-head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        margin: 0 0 18px;
+      }
+
+      .block-head .block-title {
+        max-width: 68vw;
+      }
+
+      .block-head svg {
+        width: 42px;
+        height: 14px;
+        color: var(--sage);
+        flex: none;
+      }
+
+      .block-head .flip {
+        transform: scaleX(-1);
+      }
+
+      .block-title {
+        font-family: var(--script), cursive;
+        font-weight: 400;
+        font-size: clamp(24px, 6.4vw, 30px);
+        line-height: 1.2;
+        text-align: center;
+        color: var(--wine);
+        margin: 0;
+      }
+
+      .block-title.long {
+        font-size: clamp(20px, 5.4vw, 26px);
+      }
+
+      .block-title.he {
+        font-family: var(--serif-he);
+        font-weight: 400;
+        font-size: clamp(22px, 6vw, 26px);
+      }
+
+      .block-sub {
+        text-align: center;
+        font-size: 13.5px;
+        font-weight: 300;
+        color: var(--ink-soft);
+        margin: -8px 0 20px;
+      }
+
+      /* ---------- ספירה לאחור ---------- */
+      .countdown {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 4px;
+        margin: 0 0 12px;
+        direction: ltr;
+      }
+
+      .cd-cell {
+        min-width: 62px;
+        text-align: center;
+      }
+
+      .cd-num {
+        font-family: var(--serif-en), serif;
+        font-weight: 400;
+        font-size: clamp(38px, 11vw, 50px);
+        line-height: 1;
+        color: var(--wine);
+        font-variant-numeric: lining-nums tabular-nums;
+      }
+
+      .cd-sep {
+        font-family: var(--serif-en), serif;
+        font-size: clamp(30px, 9vw, 40px);
+        line-height: 1.1;
+        color: var(--gold);
+        opacity: 0.7;
+      }
+
+      .cd-lbl {
+        font-family: var(--serif-en), serif;
+        font-size: 11.5px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--ink-soft);
+        margin-top: 8px;
+      }
+
+      /* ---------- סדר האירועים ---------- */
+      .timeline {
+        position: relative;
+        list-style: none;
+        margin: 0;
+        padding: 6px 0;
+      }
+
+      /* הקו האנכי שעליו יושבות הנקודות */
+      .timeline::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 1px;
+        transform: translateX(-50%);
+        background: linear-gradient(
+          180deg,
+          transparent,
+          rgba(138, 60, 73, 0.45) 12%,
+          rgba(138, 60, 73, 0.45) 88%,
+          transparent
+        );
+      }
+
+      .timeline li {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 34px 1fr;
+        align-items: center;
+        gap: 6px;
+        padding: 13px 0;
+      }
+
+      .tl-time {
+        font-family: var(--serif-en), serif;
+        font-size: clamp(21px, 5.6vw, 25px);
+        color: var(--wine);
+        text-align: left;
+        font-variant-numeric: lining-nums tabular-nums;
+        direction: ltr;
+      }
+
+      .tl-what {
+        font-family: var(--serif-he);
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--ink);
+        text-align: right;
+      }
+
+      .tl-note {
+        display: block;
+        font-family: var(--sans-he);
+        font-size: 12px;
+        font-weight: 300;
+        color: var(--ink-soft);
+        margin-top: 3px;
+      }
+
+      .tl-mark {
+        position: relative;
+        z-index: 2;
+        display: grid;
+        place-items: center;
+        height: 34px;
+      }
+
+      .tl-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: var(--wine-soft);
+        box-shadow: 0 0 0 4px var(--rose-bg);
+      }
+
+      /* ורד אמיתי על הנקודה הראשונה, כמו בהזמנה המקורית */
+      .tl-rose {
+        width: 34px;
+        height: 34px;
+        filter: drop-shadow(0 3px 5px rgba(90, 10, 25, 0.3));
+      }
+
+      /* ---------- כרטיס ---------- */
+      .card {
+        background: rgba(253, 246, 240, 0.72);
+        border: 1px solid rgba(185, 147, 92, 0.3);
+        border-radius: 2px;
+        padding: 22px 18px;
+        box-shadow: 0 10px 30px rgba(109, 31, 46, 0.07);
+      }
+
+      .card-frame {
+        position: relative;
+      }
+
+      /* מסגרת זהב כפולה, כמו על כרטיס מודפס */
+      .card-frame::after {
+        content: "";
+        position: absolute;
+        inset: 5px;
+        border: 1px solid rgba(185, 147, 92, 0.35);
+        pointer-events: none;
+      }
+
+      /* ---------- המקום ---------- */
+      .venue-name {
+        font-family: var(--serif-he);
+        font-weight: 400;
+        font-size: 21px;
+        color: var(--wine);
+        text-align: center;
+        margin: 0;
+      }
+
+      .venue-addr {
+        text-align: center;
+        font-size: 13.5px;
+        font-weight: 300;
+        color: var(--ink-soft);
+        margin: 8px 0 0;
+      }
+
+      .venue-art {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 3 / 2;
+        margin: 18px 0 6px;
+      }
+
+      .venue-photo {
+        position: absolute;
+        inset: 0;
+        background-size: cover;
+        background-position: center;
+        opacity: 0;
+        transition: opacity 0.6s ease;
+      }
+
+      .venue-photo.on {
+        opacity: 1;
+      }
+
+      .venue-art svg {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+
+      .map {
+        position: relative;
+        aspect-ratio: 16 / 11;
+        margin: 14px 0 4px;
+        overflow: hidden;
+        border: 1px solid rgba(185, 147, 92, 0.3);
+        background: rgba(253, 246, 240, 0.6);
+      }
+
+      .map-fallback {
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+        display: grid;
+        place-content: center;
+        gap: 8px;
+        justify-items: center;
+        text-decoration: none;
+        text-align: center;
+        background: linear-gradient(160deg, #fdf2ee, #f0d9d4);
+      }
+
+      .map-fallback svg {
+        width: 26px;
+        height: 26px;
+        color: var(--wine-soft);
+      }
+
+      .map-fallback b {
+        font-family: var(--serif-he);
+        font-weight: 400;
+        font-size: 16px;
+        color: var(--wine);
+      }
+
+      .map-fallback span {
+        font-size: 12.5px;
+        font-weight: 300;
+        color: var(--ink-soft);
+      }
+
+      .map iframe {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        display: block;
+        filter: sepia(0.28) saturate(0.8) hue-rotate(-8deg) contrast(0.95) brightness(1.03);
+      }
+
+      /* ---------- כפתורים ---------- */
+      .btns {
+        display: grid;
+        gap: 10px;
+        margin-top: 16px;
+      }
+
+      .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        text-decoration: none;
+        font-family: var(--sans-he);
+        font-size: 15px;
+        font-weight: 400;
+        padding: 14px 16px;
+        border-radius: 2px;
+        border: 1px solid rgba(109, 31, 46, 0.35);
+        color: var(--wine);
+        background: rgba(253, 246, 240, 0.85);
+        cursor: pointer;
+        transition: transform 0.15s ease, background 0.2s ease;
+      }
+
+      .btn:active {
+        transform: scale(0.98);
+      }
+
+      .btn-primary {
+        background: linear-gradient(180deg, #8a2a3b, #65162a);
+        border-color: transparent;
+        color: #fdf6f0;
+        box-shadow: 0 8px 20px rgba(101, 22, 42, 0.26);
+      }
+
+      .btn svg {
+        width: 18px;
+        height: 18px;
+        flex: none;
+      }
+
+      .btn-sub {
+        display: block;
+        font-size: 11.5px;
+        font-weight: 300;
+        opacity: 0.85;
+      }
+
+      /* ---------- טפסים ---------- */
+      .field {
+        margin-bottom: 14px;
+      }
+
+      .field label {
+        display: block;
+        font-size: 13px;
+        font-weight: 300;
+        color: var(--ink-soft);
+        margin-bottom: 7px;
+      }
+
+      .field input,
+      .field select,
+      .field textarea {
+        width: 100%;
+        font-family: var(--sans-he);
+        font-size: 16px;
+        font-weight: 300;
+        color: var(--ink);
+        background: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(138, 60, 73, 0.25);
+        border-radius: 2px;
+        padding: 12px 14px;
+        -webkit-appearance: none;
+        appearance: none;
+      }
+
+      .field select {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%238a6b70' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: left 16px center;
+        padding-left: 40px;
+      }
+
+      .field textarea {
+        resize: vertical;
+        min-height: 72px;
+      }
+
+      .field input:focus,
+      .field select:focus,
+      .field textarea:focus {
+        outline: 2px solid rgba(138, 60, 73, 0.35);
+        outline-offset: 1px;
+      }
+
+      .choice {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-bottom: 14px;
+      }
+
+      .choice input {
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .choice label {
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+        padding: 12px 8px;
+        border-radius: 2px;
+        border: 1px solid rgba(138, 60, 73, 0.25);
+        background: rgba(255, 255, 255, 0.7);
+        color: var(--ink-soft);
+        cursor: pointer;
+        margin: 0;
+      }
+
+      .choice input:checked + label {
+        background: linear-gradient(180deg, #8a2a3b, #65162a);
+        border-color: transparent;
+        color: #fdf6f0;
+      }
+
+      /* ---------- מתנה ---------- */
+      .gift-note {
+        font-size: 13.5px;
+        font-weight: 300;
+        line-height: 1.8;
+        color: var(--ink-soft);
+        text-align: center;
+        margin: 0 0 14px;
+      }
+
+      .gift-sep {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin: 18px 0 2px;
+        font-size: 11.5px;
+        font-weight: 300;
+        letter-spacing: 0.12em;
+        color: var(--ink-soft);
+      }
+
+      .gift-sep::before,
+      .gift-sep::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: rgba(138, 60, 73, 0.22);
+      }
+
+      .bank {
+        margin-top: 20px;
+        padding-top: 18px;
+        border-top: 1px dashed rgba(138, 60, 73, 0.28);
+      }
+
+      .bank-title {
+        font-family: var(--serif-he);
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        color: var(--wine);
+        margin: 0 0 4px;
+      }
+
+      .bank-sub {
+        text-align: center;
+        font-size: 12.5px;
+        font-weight: 300;
+        color: var(--ink-soft);
+        margin: 0 0 14px;
+      }
+
+      .bank-rows {
+        list-style: none;
+        margin: 0 0 14px;
+        padding: 0;
+      }
+
+      .bank-rows li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 11px 2px;
+        border-bottom: 1px dashed rgba(138, 60, 73, 0.2);
+      }
+
+      .bank-rows li:last-child {
+        border-bottom: 0;
+      }
+
+      .bank .btn {
+        width: 100%;
+      }
+
+      .bank-rows .k {
+        font-size: 12.5px;
+        font-weight: 300;
+        color: var(--ink-soft);
+        min-width: 74px;
+      }
+
+      .bank-rows .v {
+        flex: 1;
+        font-family: var(--serif-he);
+        font-size: 16px;
+        color: var(--ink);
+        unicode-bidi: plaintext;
+      }
+
+      .copy {
+        flex: none;
+        width: 34px;
+        height: 34px;
+        display: grid;
+        place-items: center;
+        padding: 0;
+        border-radius: 2px;
+        border: 1px solid rgba(109, 31, 46, 0.22);
+        background: rgba(255, 255, 255, 0.7);
+        color: var(--wine-soft);
+        cursor: pointer;
+        transition: background 0.2s ease, color 0.2s ease;
+      }
+
+      .copy svg {
+        width: 15px;
+        height: 15px;
+      }
+
+      .copy.done {
+        background: var(--wine);
+        border-color: transparent;
+        color: #fdf6f0;
+      }
+
+      /* ---------- סיום ---------- */
+      .footer {
+        text-align: center;
+        padding: 6px 0 0;
+      }
+
+      .footer .sig {
+        font-family: var(--script), cursive;
+        font-size: 27px;
+        color: var(--wine);
+        margin: 0 0 8px;
+      }
+
+      .footer .small {
+        font-size: 12px;
+        font-weight: 200;
+        letter-spacing: 0.1em;
+        color: var(--ink-soft);
+        margin: 0;
+      }
+
+      /* כיבוד העדפת מערכת להפחתת תנועה */
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+        .petal-rain {
+          display: none;
+        }
+      }
+    </style>
   </head>
-  <body>
-    <div id="root"></div>
+
+  <body class="locked">
+    <!-- ============ שלב 1: המעטפה ============ -->
+    <div class="stage" id="stage">
+      <div class="backdrop"></div>
+      <div class="envelope" id="envelope">
+        <div class="env-back"></div>
+        <div class="burst"></div>
+        <div class="flap flap-left"><div class="texture"></div></div>
+        <div class="flap flap-right"><div class="texture"></div></div>
+        <div class="flap flap-bottom"><div class="texture"></div></div>
+        <div class="flap flap-top"><div class="texture"></div></div>
+
+      </div>
+      <svg class="seams" viewBox="0 0 100 140" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 0 L50 70 L100 0 M0 140 L50 70 L100 140" />
+      </svg>
+      <div class="gold-wash" aria-hidden="true"></div>
+      <div class="glow-rays" aria-hidden="true"></div>
+      <div class="glow-core" aria-hidden="true"></div>
+      <button class="seal" id="seal" aria-label="פתיחת ההזמנה">
+        <span class="seal-face"><span class="seal-letters" id="sealLetters">M&amp;Z</span></span>
+      </button>
+      <p class="hint">הקישו על החותם לפתיחת ההזמנה</p>
+    </div>
+
+    <!-- ============ שלב 2: ההזמנה ============ -->
+    <main class="invite" id="invite" aria-hidden="true">
+      <div class="petal-rain" id="petalRain" aria-hidden="true"></div>
+
+      <div class="sheet content">
+        <!-- ---------- הקשת ---------- -->
+        <header class="arch">
+          <div class="arch-art" id="archArt" aria-hidden="true"></div>
+          <div class="arch-photo" id="archPhoto" aria-hidden="true"></div>
+
+          <div class="arch-inner">
+            <p class="arch-eyebrow">Save the Date</p>
+            <p class="arch-date" id="archDate">21.02.2027</p>
+
+            <h1 class="arch-names">
+              <span id="nameA">מתן</span><span class="arch-amp">&amp;</span
+              ><span id="nameB">ספיר</span>
+            </h1>
+
+            <p class="arch-scroll">Scroll down</p>
+            <svg class="arch-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+              <path d="M5 8l7 7 7-7" />
+            </svg>
+          </div>
+        </header>
+
+        <!-- ---------- ספירה לאחור ---------- -->
+        <section class="block" aria-label="ספירה לאחור">
+          <div class="block-head">
+            <svg viewBox="0 0 60 20" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+              <path d="M2 10h30M36 10c6-7 14-7 20 0-6 7-14 7-20 0z" />
+              <path d="M44 4c-2 4-2 8 0 12" />
+            </svg>
+            <h2 class="block-title long">The Celebration Begins In</h2>
+            <svg class="flip" viewBox="0 0 60 20" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+              <path d="M2 10h30M36 10c6-7 14-7 20 0-6 7-14 7-20 0z" />
+              <path d="M44 4c-2 4-2 8 0 12" />
+            </svg>
+          </div>
+
+          <div class="countdown" id="countdown">
+            <div class="cd-cell"><div class="cd-num" id="cdD">—</div><div class="cd-lbl">Days</div></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-cell"><div class="cd-num" id="cdH">—</div><div class="cd-lbl">Hours</div></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-cell"><div class="cd-num" id="cdM">—</div><div class="cd-lbl">Minutes</div></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-cell"><div class="cd-num" id="cdS">—</div><div class="cd-lbl">Seconds</div></div>
+          </div>
+          <p class="block-sub" id="hebDate"></p>
+        </section>
+
+        <!-- ---------- סדר האירועים ---------- -->
+        <section class="block">
+          <div class="block-head">
+            <svg viewBox="0 0 60 20" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+              <path d="M2 10h30M36 10c6-7 14-7 20 0-6 7-14 7-20 0z" />
+              <path d="M44 4c-2 4-2 8 0 12" />
+            </svg>
+            <h2 class="block-title">Schedule of Events</h2>
+            <svg class="flip" viewBox="0 0 60 20" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+              <path d="M2 10h30M36 10c6-7 14-7 20 0-6 7-14 7-20 0z" />
+              <path d="M44 4c-2 4-2 8 0 12" />
+            </svg>
+          </div>
+          <ul class="timeline" id="schedule"></ul>
+        </section>
+
+        <!-- ---------- המקום ---------- -->
+        <section class="block">
+          <div class="block-head">
+            <svg viewBox="0 0 60 20" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+              <path d="M2 10h30M36 10c6-7 14-7 20 0-6 7-14 7-20 0z" />
+              <path d="M44 4c-2 4-2 8 0 12" />
+            </svg>
+            <h2 class="block-title">Location</h2>
+            <svg class="flip" viewBox="0 0 60 20" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+              <path d="M2 10h30M36 10c6-7 14-7 20 0-6 7-14 7-20 0z" />
+              <path d="M44 4c-2 4-2 8 0 12" />
+            </svg>
+          </div>
+
+          <div class="card card-frame">
+            <p class="venue-name" id="venueName">שם האולם</p>
+            <p class="venue-addr" id="venueAddress">הכתובת המלאה</p>
+            <p class="venue-addr" id="venueNote"></p>
+
+            <div class="venue-art" aria-hidden="true">
+              <div class="venue-photo" id="venuePhoto"></div>
+              <div id="venueArt"></div>
+            </div>
+
+            <div class="map" id="mapWrap" hidden>
+              <a class="map-fallback" id="mapFallback" href="#" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11z" />
+                  <circle cx="12" cy="10" r="2.6" />
+                </svg>
+                <b id="mapFallbackName">האולם</b>
+                <span>פתיחה במפות</span>
+              </a>
+              <iframe
+                id="mapFrame"
+                title="מפת הדרך לאולם"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+
+            <div class="btns">
+              <a class="btn" id="wazeLink" href="#" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11z" />
+                  <circle cx="12" cy="10" r="2.6" />
+                </svg>
+                ניווט ב‑Waze
+              </a>
+              <a class="btn" id="mapsLink" href="#" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <path d="M9 3 3 5.4v15L9 18l6 3 6-2.4v-15L15 6 9 3z" />
+                  <path d="M9 3v15M15 6v15" />
+                </svg>
+                פתיחה ב‑Google Maps
+              </a>
+              <button class="btn" id="icsBtn" type="button">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <rect x="3" y="5" width="18" height="16" rx="2.5" />
+                  <path d="M3 10h18M8 3v4M16 3v4" />
+                </svg>
+                הוספה ליומן
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- ---------- אישור הגעה ---------- -->
+        <section class="block">
+          <div class="block-head">
+            <svg viewBox="0 0 60 20" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+              <path d="M2 10h30M36 10c6-7 14-7 20 0-6 7-14 7-20 0z" />
+              <path d="M44 4c-2 4-2 8 0 12" />
+            </svg>
+            <h2 class="block-title">RSVP</h2>
+            <svg class="flip" viewBox="0 0 60 20" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+              <path d="M2 10h30M36 10c6-7 14-7 20 0-6 7-14 7-20 0z" />
+              <path d="M44 4c-2 4-2 8 0 12" />
+            </svg>
+          </div>
+          <p class="block-sub" id="rsvpUntil">נשמח לדעת עד שבועיים לפני החתונה</p>
+
+          <div class="card card-frame">
+            <form id="rsvpForm" novalidate>
+              <div class="field">
+                <label for="rsvpName">השם שלכם</label>
+                <input id="rsvpName" name="name" type="text" autocomplete="name" placeholder="שם מלא" />
+              </div>
+
+              <div class="choice">
+                <input type="radio" id="comingYes" name="coming" value="מגיעים" checked />
+                <label for="comingYes">מגיעים ❤</label>
+                <input type="radio" id="comingNo" name="coming" value="לא נוכל להגיע" />
+                <label for="comingNo">לא נוכל</label>
+              </div>
+
+              <div class="field" id="guestsField">
+                <label for="rsvpGuests">כמה אתם?</label>
+                <select id="rsvpGuests" name="guests">
+                  <option>1</option>
+                  <option selected>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7+</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="rsvpMsg">משהו שנרצה לדעת? (לא חובה)</label>
+                <textarea id="rsvpMsg" name="msg" placeholder="צמחוני, הסעה, ברכה…"></textarea>
+              </div>
+
+              <div class="btns">
+                <button class="btn btn-primary" type="submit">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2zm5.6 14.1c-.2.6-1.2 1.2-1.7 1.2-.4 0-1 .1-3.2-.8-2.7-1.1-4.4-3.9-4.5-4-.1-.2-1-1.4-1-2.6s.6-1.8.9-2.1c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.5-.3.3c-.1.1-.2.3 0 .5.1.2.6 1 1.3 1.6.9.8 1.6 1 1.8 1.1.2.1.4.1.5-.1l.7-.8c.2-.2.3-.2.5-.1l2 .9c.2.1.4.2.4.3.1.1.1.6-.1 1.2z"
+                    />
+                  </svg>
+                  שליחת אישור בוואטסאפ
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <!-- ---------- מתנה ---------- -->
+        <section class="block" id="giftBlock">
+          <div class="block-head">
+            <svg viewBox="0 0 60 20" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+              <path d="M2 10h30M36 10c6-7 14-7 20 0-6 7-14 7-20 0z" />
+              <path d="M44 4c-2 4-2 8 0 12" />
+            </svg>
+            <h2 class="block-title">Gift</h2>
+            <svg class="flip" viewBox="0 0 60 20" fill="none" stroke="currentColor" stroke-width="1.1" aria-hidden="true">
+              <path d="M2 10h30M36 10c6-7 14-7 20 0-6 7-14 7-20 0z" />
+              <path d="M44 4c-2 4-2 8 0 12" />
+            </svg>
+          </div>
+
+          <div class="card card-frame">
+            <p class="gift-note" id="giftNote"></p>
+            <div class="btns" id="giftBtns"></div>
+
+            <div class="bank" id="bankBox" hidden>
+              <p class="bank-title">העברה בנקאית</p>
+              <p class="bank-sub">הקישו על הסימן כדי להעתיק</p>
+              <ul class="bank-rows" id="bankRows"></ul>
+              <button class="btn" id="copyAll" type="button">העתקת כל הפרטים</button>
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <p class="sig" id="sig">With love</p>
+          <p class="small" id="sigHe">מחכים לכם</p>
+        </footer>
+      </div>
+    </main>
+
+    <script>
+      /* ================================================================
+         ⬇⬇⬇  כל הפרטים של החתונה נמצאים כאן, ורק כאן.  ⬇⬇⬇
+         מחליפים את הערכים בטקסט שלכם — אין צורך לגעת בשום מקום אחר.
+         ================================================================ */
+      const CONFIG = {
+        /* שמות החתן והכלה + האותיות שעל חותם השעווה */
+        nameA: "מתן",
+        nameB: "ספיר",
+        sealLetters: "M&Z",
+
+        /* תאריך ושעת ההתחלה — פורמט ISO עם אזור זמן ישראל (03:00+ בקיץ, 02:00+ בחורף).
+           הערך הזה מזין גם את הספירה לאחור וגם את קובץ היומן. */
+        /* פברואר הוא שעון חורף בישראל, ולכן 02:00+ ולא 03:00+ */
+        dateISO: "2027-02-21T19:00:00+02:00",
+        dateText: "21 בפברואר 2027",
+        /* התאריך כפי שהוא מופיע מתחת לכותרת הראשית */
+        dateNumeric: "21.02.2027",
+        dayText: "יום ראשון",
+        /* תאריך עברי — לא חובה. מחרוזת ריקה מסתירה את השורה. */
+        hebrewDateText: "י״ד באדר א׳ תשפ״ז",
+
+        /* שורת ההזמנה שבתוך הלב */
+        inviteLine: "לחגוג איתנו<br />את היום הכי יפה שלנו",
+
+        /* מקום האירוע */
+        venue: {
+          name: "סיטרוס גן אירועים",
+          address: "ספיר 1, אבן יהודה",
+          note: "חניה במקום",
+          /* קואורדינטות — הדרך הכי מדויקת לניווט, וגם מה שמזין את המפה.
+             אם אין, משאירים null והקישורים ייבנו לפי הכתובת שלמעלה. */
+          lat: 32.28478,
+          lng: 34.8947,
+        },
+
+        /* סדר היום. אפשר להוסיף או להוריד שורות בחופשיות. */
+        schedule: [
+          { time: "19:00", what: "קבלת פנים", note: "בואו רעבים" },
+          { time: "20:30", what: "חופה", note: "נשמח שתהיו בזמן" },
+          { time: "21:00", what: "ארוחה וריקודים", note: "עד שהרגליים נגמרות" },
+        ],
+
+        /* אישור הגעה — המספר שאליו תישלח ההודעה בוואטסאפ.
+           פורמט בינלאומי בלי + ובלי אפס מוביל: 972501234567 */
+        rsvp: {
+          /* כל עוד זה המספר הזמני, כפתור אישור ההגעה לא ישלח לשום מקום
+             אלא יציג הודעה — כדי שאורח לא ישלח הודעה למספר אקראי. */
+          phone: "972500000000",
+          untilText: "נשמח לאישור הגעה עד 7.2.2027",
+        },
+
+        /* מתנה. כל שדה ריק פשוט לא מוצג, ואם הכול ריק — הקטע כולו נעלם.
+           אפשר למלא רק את מה שרלוונטי לכם. */
+        gift: {
+          note: "הנוכחות שלכם היא המתנה הגדולה ביותר.<br />ולמי שירצה — אפשר גם כאן:",
+
+          /* הקישור ל-iPlan. זה הכפתור הראשי, והוא זה שמופיע ראשון. */
+          iplan: "",
+
+          /* ביט ופייבוקס: או קישור ישיר, או מספר טלפון שאפשר להעתיק.
+             אם יש קישור — הוא מנצח, והטלפון לא מוצג. */
+          bit: "",
+          paybox: "",
+          phone: "",
+
+          /* העברה בנקאית. שדה ריק לא מוצג; אם כל הארבעה ריקים,
+             קטע ההעברה הבנקאית נעלם. */
+          bank: {
+            beneficiary: "",
+            bankName: "",
+            branch: "",
+            account: "",
+          },
+        },
+
+        /* איורים מוכנים (קובץ או כתובת). ריק — ומצויר איור וקטורי במקום. */
+        art: {
+          hero: "",
+          venue: "",
+        },
+
+        /* שורת הסיום */
+        sign: "מחכים לכם, מתן וספיר",
+      };
+      /* ================================================================
+         ⬆⬆⬆  סוף אזור העריכה.  ⬆⬆⬆
+         ================================================================ */
+
+      const $ = (id) => document.getElementById(id);
+      const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      /* ---------- הזרקת הפרטים אל תוך הדף ---------- */
+      function fillContent() {
+        $("nameA").textContent = CONFIG.nameA;
+        $("nameB").textContent = CONFIG.nameB;
+        $("sealLetters").textContent = CONFIG.sealLetters;
+        $("archDate").textContent = CONFIG.dateNumeric || CONFIG.dateText;
+        $("hebDate").textContent = [CONFIG.dayText, CONFIG.dateText, CONFIG.hebrewDateText]
+          .filter(Boolean)
+          .join(" · ");
+        $("sigHe").textContent = CONFIG.sign;
+        $("rsvpUntil").textContent = CONFIG.rsvp.untilText;
+
+        /* איורים מוכנים, אם סופקו — הם מכסים את הציור הווקטורי */
+        const art = CONFIG.art || {};
+        if (art.hero) {
+          $("archPhoto").style.backgroundImage = `url("${art.hero}")`;
+          $("archPhoto").classList.add("on");
+        }
+        if (art.venue) {
+          $("venuePhoto").style.backgroundImage = `url("${art.venue}")`;
+          $("venuePhoto").classList.add("on");
+        }
+
+        $("venueName").textContent = CONFIG.venue.name;
+        $("venueAddress").textContent = CONFIG.venue.address;
+        $("venueNote").textContent = CONFIG.venue.note || "";
+
+        document.title = `${CONFIG.nameA} & ${CONFIG.nameB}`;
+
+        buildTimeline();
+
+        /* קישורי ניווט */
+        const { lat, lng, address, name } = CONFIG.venue;
+        const q = encodeURIComponent(`${name} ${address}`);
+        $("wazeLink").href =
+          lat && lng ? `https://waze.com/ul?ll=${lat},${lng}&navigate=yes` : `https://waze.com/ul?q=${q}&navigate=yes`;
+        $("mapsLink").href =
+          lat && lng
+            ? `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`
+            : `https://www.google.com/maps/search/?api=1&query=${q}`;
+
+        /* מפה משובצת — רק כשיש קואורדינטות, ורק כשהדף לא רץ בתוך מסגרת.
+           OpenStreetMap לא דורש מפתח API. */
+        const framed = isFramed();
+
+        if (lat && lng && !framed) {
+          const box = [lng - 0.0075, lat - 0.004, lng + 0.0075, lat + 0.004]
+            .map((n) => n.toFixed(5))
+            .join("%2C");
+          $("mapFrame").src =
+            `https://www.openstreetmap.org/export/embed.html?bbox=${box}` +
+            `&layer=mapnik&marker=${lat}%2C${lng}`;
+        }
+
+        if (lat && lng) {
+          $("mapFallback").href = $("mapsLink").href;
+          $("mapFallbackName").textContent = name;
+          $("mapWrap").hidden = false;
+        }
+
+        buildGift();
+      }
+
+      /* ---------- קטע המתנה ---------- */
+      function buildGift() {
+        const g = CONFIG.gift || {};
+        const bank = g.bank || {};
+        const parts = [];
+
+        $("giftNote").innerHTML = g.note || "";
+
+        /* iPlan הוא הכפתור הראשי */
+        if (g.iplan) {
+          parts.push(
+            `<a class="btn btn-primary" href="${g.iplan}" target="_blank" rel="noopener">
+               <span>מתנה דיגיטלית<span class="btn-sub">דרך iPlan</span></span>
+             </a>`
+          );
+        }
+
+        const links = [
+          { url: g.bit, label: "מתנה ב‑Bit" },
+          { url: g.paybox, label: "מתנה ב‑PayBox" },
+        ].filter((x) => x.url);
+
+        /* בלי קישור ישיר, מספר הטלפון הוא מה שמעתיקים לאפליקציה */
+        const phoneRow =
+          !links.length && g.phone
+            ? `<button class="btn" type="button" data-copy="${g.phone}">
+                 <span>ביט / פייבוקס למספר ${g.phone}<span class="btn-sub">הקישו להעתקה</span></span>
+               </button>`
+            : "";
+
+        if (g.iplan && (links.length || phoneRow)) {
+          parts.push('<div class="gift-sep">או</div>');
+        }
+
+        links.forEach((x) => {
+          parts.push(
+            `<a class="btn" href="${x.url}" target="_blank" rel="noopener">${x.label}</a>`
+          );
+        });
+        if (phoneRow) parts.push(phoneRow);
+
+        $("giftBtns").innerHTML = parts.join("");
+
+        /* פרטי החשבון — רק השדות שמולאו */
+        const rows = [
+          ["שם המוטב", bank.beneficiary],
+          ["בנק", bank.bankName],
+          ["סניף", bank.branch],
+          ["חשבון", bank.account],
+        ].filter(([, v]) => v);
+
+        if (rows.length) {
+          $("bankRows").innerHTML = rows
+            .map(
+              ([k, v]) => `<li>
+                <span class="k">${k}</span>
+                <span class="v">${v}</span>
+                <button class="copy" type="button" data-copy="${v}" aria-label="העתקת ${k}">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                    <rect x="9" y="9" width="12" height="12" rx="2.5" />
+                    <path d="M5 15V5.5A2.5 2.5 0 0 1 7.5 3H15" />
+                  </svg>
+                </button>
+              </li>`
+            )
+            .join("");
+
+          $("copyAll").dataset.copy = rows.map(([k, v]) => `${k}: ${v}`).join("\n");
+          $("bankBox").hidden = false;
+        }
+
+        /* אם לא מולא כלום — אין טעם להציג את הקטע */
+        $("giftBlock").hidden = !parts.length && !rows.length;
+      }
+
+      /* ---------- העתקה ללוח ---------- */
+      function wireCopy() {
+        document.addEventListener("click", async (e) => {
+          const el = e.target.closest("[data-copy]");
+          if (!el) return;
+          const text = el.dataset.copy;
+
+          try {
+            await navigator.clipboard.writeText(text);
+          } catch {
+            /* דפדפנים ישנים, או דף שלא מוגש ב-https */
+            const ta = document.createElement("textarea");
+            ta.value = text;
+            ta.setAttribute("readonly", "");
+            ta.style.cssText = "position:fixed;top:-100px;opacity:0";
+            document.body.appendChild(ta);
+            ta.select();
+            try {
+              document.execCommand("copy");
+            } catch {
+              /* אין מה לעשות — הטקסט מוצג ממילא על המסך */
+            }
+            ta.remove();
+          }
+
+          /* משוב קצר, בלי להחליף את תוכן הכפתור לצמיתות */
+          if (el.classList.contains("copy")) {
+            el.classList.add("done");
+            setTimeout(() => el.classList.remove("done"), 1600);
+          } else {
+            const before = el.innerHTML;
+            el.innerHTML = "הועתק ✓";
+            setTimeout(() => (el.innerHTML = before), 1600);
+          }
+        });
+      }
+
+      /* דף שרץ בתוך מסגרת מוגבל: מפות משובצות והורדת קבצים חסומות בו */
+      function isFramed() {
+        try {
+          return window.self !== window.top;
+        } catch {
+          return true;
+        }
+      }
+
+      /* העיר היא המילה האחרונה בכתובת — מספיק טוב לשורת הכותרת */
+      /* ---------- ציר הזמן ---------- */
+      function buildTimeline() {
+        const host = $("schedule");
+        host.innerHTML = "";
+
+        CONFIG.schedule.forEach((row, i) => {
+          const li = document.createElement("li");
+          li.innerHTML = `
+            <span class="tl-what">${row.what}${
+              row.note ? `<span class="tl-note">${row.note}</span>` : ""
+            }</span>
+            <span class="tl-mark"></span>
+            <span class="tl-time">${row.time}</span>`;
+          host.appendChild(li);
+
+          /* ורד על האירוע הראשון, נקודה על השאר — כמו בהזמנה המקורית */
+          const mark = li.querySelector(".tl-mark");
+          if (i === 0) {
+            const svg = el("svg", { class: "tl-rose", viewBox: "-14 -14 28 28" }, mark);
+            rose(svg, 0, 0, 1.05, { deep: "#7d1326", mid: "#a8243c", line: "rgba(255,210,205,.55)" });
+          } else {
+            const dot = document.createElement("i");
+            dot.className = "tl-dot";
+            mark.appendChild(dot);
+          }
+        });
+      }
+
+      /* ================================================================
+         האיור: קשת, פרחים, ברבורים וורדים — הכול וקטורי, בלי קבצים
+         חיצוניים. אם מסופקת תמונת איור ב-CONFIG.art היא מכסה אותו.
+         ================================================================ */
+
+      /* מחולל אקראי עם זרע קבוע: אותו איור בכל טעינה */
+      function seeded(seed) {
+        let s = seed;
+        return () => ((s = (s * 16807) % 2147483647) - 1) / 2147483646;
+      }
+
+      const SVG_NS = "http://www.w3.org/2000/svg";
+
+      function el(name, attrs, parent) {
+        const node = document.createElementNS(SVG_NS, name);
+        for (const k in attrs) node.setAttribute(k, attrs[k]);
+        if (parent) parent.appendChild(node);
+        return node;
+      }
+
+      /* ורד: ספירלה של קשתות שרדיוסן גדל */
+      const ROSE_SPIRAL =
+        "M0 0a2.4 2.4 0 0 1 4.8 0a4.8 4.8 0 0 1-9.6 0a7.2 7.2 0 0 1 14.4 0a9.6 9.6 0 0 1-19.2 0";
+
+      function rose(parent, x, y, scale, hue) {
+        const g = el("g", { transform: `translate(${x} ${y}) scale(${scale})` }, parent);
+        el("circle", { r: 11, fill: hue.deep, opacity: 0.95 }, g);
+        el("circle", { r: 8.5, cx: -1.5, cy: -1.5, fill: hue.mid }, g);
+        el(
+          "path",
+          { d: ROSE_SPIRAL, fill: "none", stroke: hue.line, "stroke-width": 1.5, "stroke-linecap": "round" },
+          g
+        );
+        return g;
+      }
+
+      /* עלה בודד */
+      function leaf(parent, x, y, rot, scale, fill) {
+        return el(
+          "path",
+          {
+            d: "M0 0c5-7 13-8 18-4-5 7-13 8-18 4z",
+            transform: `translate(${x} ${y}) rotate(${rot}) scale(${scale})`,
+            fill,
+          },
+          parent
+        );
+      }
+
+      /* ברבור, פונה ימינה. שני ברבורים מראים זה מול זה יוצרים לב */
+      function swan(parent, x, y, scale, flip) {
+        const g = el(
+          "g",
+          { transform: `translate(${x} ${y}) scale(${flip ? -scale : scale} ${scale})` },
+          parent
+        );
+        /* גוף */
+        el(
+          "path",
+          {
+            d: "M-26 6C-32 2-30-6-20-9 -8-12 8-10 18-4 24 0 26 6 20 9 8 14-14 14-26 6z",
+            fill: "#fffaf6",
+            stroke: "rgba(150,110,95,.35)",
+            "stroke-width": 0.8,
+          },
+          g
+        );
+        /* צוואר וראש */
+        el(
+          "path",
+          {
+            d: "M16-5C22-14 22-26 15-32c-6-5-14-3-15 4-1 5 3 8 7 7",
+            fill: "none",
+            stroke: "#fffaf6",
+            "stroke-width": 5.5,
+            "stroke-linecap": "round",
+          },
+          g
+        );
+        el(
+          "path",
+          {
+            d: "M-18 2c6-6 18-7 26-3",
+            fill: "none",
+            stroke: "rgba(150,110,95,.3)",
+            "stroke-width": 0.9,
+            "stroke-linecap": "round",
+          },
+          g
+        );
+        el("circle", { cx: 2.5, cy: -26.5, r: 3.6, fill: "#fffaf6" }, g);
+        el("path", { d: "M-0.5-26.5l-5 1.5 5 1.6z", fill: "#d08a6a" }, g);
+        el("circle", { cx: 1.4, cy: -27.4, r: 0.7, fill: "#5a3b40" }, g);
+        return g;
+      }
+
+      /* ---------- הקשת של הכותרת ---------- */
+      function buildArch() {
+        const host = $("archArt");
+        host.innerHTML = "";
+        const rnd = seeded(20270221);
+
+        const svg = el(
+          "svg",
+          { viewBox: "0 0 100 170", preserveAspectRatio: "xMidYMid slice", width: "100%", height: "100%" },
+          host
+        );
+
+        const defs = el("defs", {}, svg);
+        const sky = el("linearGradient", { id: "sky", x1: "0", y1: "0", x2: "0", y2: "1" }, defs);
+        el("stop", { offset: "0", "stop-color": "#fdf3ef" }, sky);
+        el("stop", { offset: "0.55", "stop-color": "#f6e2de" }, sky);
+        el("stop", { offset: "1", "stop-color": "#e9cfca" }, sky);
+
+        const water = el("linearGradient", { id: "water", x1: "0", y1: "0", x2: "0", y2: "1" }, defs);
+        el("stop", { offset: "0", "stop-color": "#e7cfcb" }, water);
+        el("stop", { offset: "1", "stop-color": "#dcc0bd" }, water);
+
+        el("rect", { x: 0, y: 0, width: 100, height: 170, fill: "url(#sky)" }, svg);
+
+        /* אגם רחוק */
+        el("rect", { x: 0, y: 132, width: 100, height: 38, fill: "url(#water)", opacity: 0.75 }, svg);
+        for (let i = 0; i < 6; i++) {
+          el(
+            "path",
+            {
+              d: `M${8 + rnd() * 20} ${138 + i * 5.5}q${10 + rnd() * 14} ${rnd() > 0.5 ? 1.5 : -1.5} ${26 + rnd() * 22} 0`,
+              fill: "none",
+              stroke: "rgba(255,255,255,.4)",
+              "stroke-width": 0.5,
+            },
+            svg
+          );
+        }
+
+        /* הקשת: קו כפול בזהב */
+        const archD = "M10 170V66C10 30 26 12 50 12s40 18 40 54v104";
+        el("path", { d: archD, fill: "none", stroke: "rgba(185,147,92,.55)", "stroke-width": 1.1 }, svg);
+        el(
+          "path",
+          {
+            d: "M14.5 170V67C14.5 34 29 17 50 17s35.5 17 35.5 50v103",
+            fill: "none",
+            stroke: "rgba(185,147,92,.3)",
+            "stroke-width": 0.6,
+          },
+          svg
+        );
+
+        /* ברבורים מתחת לקשת */
+        const swans = el("g", { transform: "translate(0 0)" }, svg);
+        swan(swans, 39, 145, 0.46, false);
+        swan(swans, 61, 145, 0.46, true);
+        const refl = el("g", { opacity: 0.2, transform: "translate(0 306) scale(1 -1)" }, svg);
+        swan(refl, 39, 145, 0.46, false);
+        swan(refl, 61, 145, 0.46, true);
+
+        /* ירק מטפס על הקשת */
+        const vine = el("path", { d: archD, fill: "none", stroke: "none" }, svg);
+        const len = vine.getTotalLength();
+        const greens = ["#9fae96", "#8b9c82", "#b3c0a8"];
+        for (let i = 0; i < 74; i++) {
+          const t = (i / 74) * len;
+          const p = vine.getPointAtLength(t);
+          const q = vine.getPointAtLength(Math.min(len, t + 1));
+          const ang = (Math.atan2(q.y - p.y, q.x - p.x) * 180) / Math.PI;
+          const side = i % 2 ? 1 : -1;
+          leaf(
+            svg,
+            p.x,
+            p.y,
+            ang + side * (40 + rnd() * 45),
+            0.2 + rnd() * 0.18,
+            greens[i % greens.length]
+          );
+          if (i % 7 === 3) {
+            el(
+              "circle",
+              { cx: p.x + side * 1.5, cy: p.y, r: 0.9 + rnd() * 0.5, fill: "#fdf6ef", opacity: 0.95 },
+              svg
+            );
+          }
+        }
+
+        /* זרי פרחים בשתי הפינות התחתונות */
+        const hues = [
+          { deep: "#7d1326", mid: "#a8243c", line: "rgba(255,210,205,.55)" },
+          { deep: "#b5566a", mid: "#d98a99", line: "rgba(255,240,238,.6)" },
+          { deep: "#e9c3c0", mid: "#f6ded9", line: "rgba(160,110,110,.4)" },
+        ];
+
+        [
+          { x: 8, y: 162, dir: 1 },
+          { x: 92, y: 162, dir: -1 },
+        ].forEach((corner) => {
+          const g = el("g", {}, svg);
+          for (let i = 0; i < 24; i++) {
+            leaf(
+              g,
+              corner.x + corner.dir * rnd() * 22 - 2,
+              corner.y - rnd() * 26,
+              rnd() * 360,
+              0.22 + rnd() * 0.22,
+              greens[i % greens.length]
+            );
+          }
+          for (let i = 0; i < 10; i++) {
+            rose(
+              g,
+              corner.x + corner.dir * (rnd() * 18 - 1),
+              corner.y - rnd() * 20,
+              0.16 + rnd() * 0.16,
+              hues[i % hues.length]
+            );
+          }
+        });
+
+        /* ערפל רך במרכז, כדי שהטקסט יישב על רקע נקי */
+        el(
+          "ellipse",
+          { cx: 50, cy: 74, rx: 42, ry: 46, fill: "#fbeae6", opacity: 0.82, filter: "url(#soft)" },
+          svg
+        );
+        const f = el("filter", { id: "soft", x: "-50%", y: "-50%", width: "200%", height: "200%" }, defs);
+        el("feGaussianBlur", { stdDeviation: 7 }, f);
+      }
+
+      /* ---------- איור המקום ---------- */
+      function buildVenueArt() {
+        const host = $("venueArt");
+        host.innerHTML = "";
+        const rnd = seeded(97531);
+
+        const svg = el("svg", { viewBox: "0 0 300 200", width: "100%", height: "100%" }, host);
+        const defs = el("defs", {}, svg);
+        const g1 = el("linearGradient", { id: "vsky", x1: "0", y1: "0", x2: "0", y2: "1" }, defs);
+        el("stop", { offset: "0", "stop-color": "#fdf4ef" }, g1);
+        el("stop", { offset: "1", "stop-color": "#f2ded8" }, g1);
+        el("rect", { x: 0, y: 0, width: 300, height: 200, fill: "url(#vsky)" }, svg);
+
+        /* מבנה אבן נמוך עם חלונות קשת */
+        el("rect", { x: 70, y: 86, width: 160, height: 74, fill: "#f6ece1", stroke: "rgba(185,147,92,.45)", "stroke-width": 1 }, svg);
+        el("path", { d: "M62 88 150 58l88 30z", fill: "#efdfd2", stroke: "rgba(185,147,92,.45)", "stroke-width": 1 }, svg);
+        [96, 128, 172, 204].forEach((x) => {
+          el(
+            "path",
+            { d: `M${x} 150v-26a12 12 0 0 1 24 0v26z`, fill: "#f3c98f", opacity: 0.9 },
+            svg
+          );
+          el(
+            "path",
+            { d: `M${x} 150v-26a12 12 0 0 1 24 0v26`, fill: "none", stroke: "rgba(150,110,80,.5)", "stroke-width": 0.9 },
+            svg
+          );
+        });
+
+        /* ברושים משני הצדדים */
+        [
+          { x: 44, h: 78 },
+          { x: 256, h: 70 },
+          { x: 28, h: 56 },
+        ].forEach((c) => {
+          el(
+            "path",
+            { d: `M${c.x} 162c-9 0-13-6-13-${c.h * 0.4}C${c.x - 13} ${162 - c.h} ${c.x} ${162 - c.h - 8} ${c.x} ${162 - c.h - 8}s13 8 13 ${c.h * 0.55}c0 10-4 ${c.h * 0.33} -13 ${c.h * 0.33}z`,
+              fill: "#8b9c82",
+              opacity: 0.9 },
+            svg
+          );
+        });
+
+        /* שביל אבן */
+        el("path", { d: "M150 160 120 196h60z", fill: "#efe2d6", stroke: "rgba(185,147,92,.35)", "stroke-width": 0.8 }, svg);
+
+        /* שיחים ופרחים לאורך הבסיס */
+        const greens = ["#9fae96", "#8b9c82", "#b3c0a8"];
+        const hues = [
+          { deep: "#7d1326", mid: "#a8243c", line: "rgba(255,210,205,.5)" },
+          { deep: "#b5566a", mid: "#d98a99", line: "rgba(255,240,238,.55)" },
+          { deep: "#e9c3c0", mid: "#f6ded9", line: "rgba(160,110,110,.35)" },
+        ];
+        for (let i = 0; i < 70; i++) {
+          const x = rnd() * 300;
+          const y = 158 + rnd() * 34;
+          leaf(svg, x, y, rnd() * 360, 0.5 + rnd() * 0.5, greens[i % greens.length]);
+        }
+        for (let i = 0; i < 16; i++) {
+          rose(svg, rnd() * 300, 162 + rnd() * 30, 0.3 + rnd() * 0.3, hues[i % hues.length]);
+        }
+
+        /* שורת אורות על הפרגולה */
+        el("path", { d: "M70 86q80 18 160 0", fill: "none", stroke: "rgba(185,147,92,.5)", "stroke-width": 0.8 }, svg);
+        for (let i = 0; i <= 10; i++) {
+          const t = i / 10;
+          const x = 70 + 160 * t;
+          const y = 86 + 18 * 2 * t * (1 - t);
+          el("circle", { cx: x, cy: y + 3, r: 2.2, fill: "#f7cf92" }, svg);
+        }
+      }
+
+      /* ---------- עלי כותרת שנושרים ---------- */
+      function startPetalRain() {
+        if (reduced) return;
+        const host = $("petalRain");
+        for (let i = 0; i < 22; i++) {
+          const p = document.createElement("span");
+          p.className = "fall";
+          const scale = 0.55 + Math.random() * 0.85;
+          p.style.cssText = `left:${Math.random() * 100}%;
+            animation-duration:${9 + Math.random() * 9}s;
+            animation-delay:${-Math.random() * 14}s;
+            transform:scale(${scale});
+            opacity:${0.35 + Math.random() * 0.5};
+            --drift:${(Math.random() - 0.5) * 180}px;`;
+          host.appendChild(p);
+        }
+      }
+
+      /* ---------- ספירה לאחור ---------- */
+      function startCountdown() {
+        const target = new Date(CONFIG.dateISO).getTime();
+        const pad = (n) => String(n).padStart(2, "0");
+
+        const tick = () => {
+          const diff = target - Date.now();
+          if (diff <= 0) {
+            $("countdown").innerHTML =
+              '<div class="cd-cell" style="grid-column:1/-1"><div class="cd-num" style="font-size:20px">היום חוגגים ❤</div></div>';
+            return;
+          }
+          const s = Math.floor(diff / 1000);
+          $("cdD").textContent = Math.floor(s / 86400);
+          $("cdH").textContent = pad(Math.floor(s / 3600) % 24);
+          $("cdM").textContent = pad(Math.floor(s / 60) % 60);
+          $("cdS").textContent = pad(s % 60);
+          requestAnimationFrame(() => setTimeout(tick, 1000));
+        };
+        tick();
+      }
+
+      /* ---------- הוספה ליומן (קובץ ics שנוצר בדפדפן) ---------- */
+      function downloadICS() {
+        const start = new Date(CONFIG.dateISO);
+        const end = new Date(start.getTime() + 5 * 60 * 60 * 1000); /* חמש שעות של שמחה */
+        const fmt = (d) => d.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
+        const title = `החתונה של ${CONFIG.nameA} ו${CONFIG.nameB}`;
+
+        const ics = [
+          "BEGIN:VCALENDAR",
+          "VERSION:2.0",
+          "PRODID:-//wedding//HE",
+          "BEGIN:VEVENT",
+          `UID:${Date.now()}@wedding`,
+          `DTSTAMP:${fmt(new Date())}`,
+          `DTSTART:${fmt(start)}`,
+          `DTEND:${fmt(end)}`,
+          `SUMMARY:${title}`,
+          `LOCATION:${CONFIG.venue.name}, ${CONFIG.venue.address}`,
+          "END:VEVENT",
+          "END:VCALENDAR",
+        ].join("\r\n");
+
+        const url = URL.createObjectURL(new Blob([ics], { type: "text/calendar" }));
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "wedding.ics";
+        a.click();
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
+      }
+
+      /* ---------- אישור הגעה דרך וואטסאפ ---------- */
+      function wireRsvp() {
+        const form = $("rsvpForm");
+        const guestsField = $("guestsField");
+
+        /* "לא נוכל להגיע" מייתר את שאלת מספר האורחים */
+        form.addEventListener("change", () => {
+          guestsField.hidden = !$("comingYes").checked;
+        });
+
+        /* ?to=שם ממלא מראש את שם המוזמן כששולחים קישור אישי */
+        const to = new URLSearchParams(location.search).get("to");
+        if (to) $("rsvpName").value = to;
+
+        /* המספר שמגיע עם הקובץ. כל עוד לא הוחלף, אסור לשלוח אליו הודעות. */
+        const PLACEHOLDER_PHONE = "972500000000";
+
+        form.addEventListener("submit", (e) => {
+          e.preventDefault();
+
+          const phone = String(CONFIG.rsvp.phone || "").replace(/\D/g, "");
+          if (!phone || phone === PLACEHOLDER_PHONE) {
+            const btn = form.querySelector('button[type="submit"]');
+            const before = btn.innerHTML;
+            btn.innerHTML = "טרם הוגדר מספר לאישורי הגעה";
+            setTimeout(() => (btn.innerHTML = before), 2600);
+            return;
+          }
+
+          const name = $("rsvpName").value.trim();
+          if (!name) {
+            $("rsvpName").focus();
+            return;
+          }
+          const coming = $("comingYes").checked;
+          const guests = $("rsvpGuests").value;
+          const msg = $("rsvpMsg").value.trim();
+
+          const lines = [
+            `היי ${CONFIG.nameA} ו${CONFIG.nameB}!`,
+            coming ? `${name} — מגיעים, ${guests} אורחים ❤` : `${name} — לא נוכל להגיע, מצטערים`,
+            msg ? `הערה: ${msg}` : "",
+          ].filter(Boolean);
+
+          window.open(
+            `https://wa.me/${phone}?text=${encodeURIComponent(lines.join("\n"))}`,
+            "_blank",
+            "noopener"
+          );
+        });
+      }
+
+      /* ---------- פתיחת המעטפה ---------- */
+      function wireEnvelope() {
+        const stage = $("stage");
+        const invite = $("invite");
+        let opened = false;
+
+        const open = () => {
+          if (opened) return;
+          opened = true;
+
+          /* האור נדלק מתחת לחותם ומאיר את המעטפה */
+          stage.classList.add("opening");
+
+          const at = (ms, fn) => setTimeout(fn, reduced ? 0 : ms);
+
+          /* ואז הוא מציף את המסך, וההזמנה נחשפת מתוכו */
+          at(1150, () => stage.classList.add("flooding"));
+
+          at(1450, () => {
+            invite.classList.add("visible");
+            invite.setAttribute("aria-hidden", "false");
+            document.body.classList.remove("locked");
+            document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f6e7e4");
+          });
+
+          setTimeout(() => stage.classList.add("gone"), reduced ? 10 : 2250);
+        };
+
+        $("seal").addEventListener("click", open);
+        stage.addEventListener("click", open);
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Enter" || e.key === " ") open();
+        });
+
+        /* קישור עם #open מדלג על האנימציה — שימושי לשליחה חוזרת */
+        if (location.hash === "#open") open();
+      }
+
+      /* ---------- הפעלה ---------- */
+      document.body.classList.add("locked");
+
+      buildArch();
+      buildVenueArt();
+      fillContent();
+      startPetalRain();
+      startCountdown();
+      wireRsvp();
+      wireCopy();
+      wireEnvelope();
+      if (isFramed()) {
+        $("icsBtn").hidden = true;
+      } else {
+        $("icsBtn").addEventListener("click", downloadICS);
+      }
+    </script>
   </body>
 </html>
